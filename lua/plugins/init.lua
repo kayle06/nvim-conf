@@ -1,0 +1,5 @@
+require("plugins.lazy")
+require("plugins.colorscheme")
+require("plugins.keymapping")
+require("plugins.options")
+require("plugins.peek")
