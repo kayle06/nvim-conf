@@ -46,3 +46,9 @@ set("n", "<C-k>", ":m .-2<CR>==")
 -- back / forward
 set("n", "<leader>[", "<C-o>", opt)
 set("n", "<leader>]", "<C-i>", opt)
+
+-- run program.
+-- :!only - Runs non-interactive programs
+-- :trem - Run the program with the built-in terminal
+set("n", "<leader>rp", ":!python3 %<CR>", opt)
+set("n", "<leader>rvp", ":vsplit term://python3 %<CR>", opt)
