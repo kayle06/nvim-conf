@@ -5,6 +5,7 @@ return {
 		cmd = "Git",
 		config = function()
 			vim.cmd.cnoreabbrev([[git Git]])
+			vim.keymap.set({ "n", "i" }, "<C-i>g", ":Git<CR>", { noremap = true})
 		end,
 	},
 	{

@@ -32,10 +32,10 @@ set("n", "k", [[v:count ? 'k' : 'gk']], { noremap = true, expr = true })
 -- window
 set("n", "<leader>v", "<C-w>v", opt)
 set("n", "<leader>s", "<C-w>s", opt)
-set("n", "<C-h>", "<C-w>h", opt)
-set("n", "<C-j>", "<C-w>j", opt)
-set("n", "<C-k>", "<C-w>k", opt)
-set("n", "<C-l>", "<C-w>l", opt)
+set("n", "<C-v>h", "<C-w>h", opt)
+set("n", "<C-v>j", "<C-w>j", opt)
+set("n", "<C-v>k", "<C-w>k", opt)
+set("n", "<C-v>l", "<C-w>l", opt)
 
 -- Move selected lines with ctrl-j or ctrl+k
 set("v", "<C-j>", ":m '>+1<CR>gv=gv")
