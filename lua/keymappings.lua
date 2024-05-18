@@ -52,3 +52,5 @@ set("n", "<leader>]", "<C-i>", opt)
 -- :trem - Run the program with the built-in terminal
 set("n", "<leader>rp", ":!python3 %<CR>", opt)
 set("n", "<leader>rvp", ":vsplit term://python3 %<CR>", opt)
+
+set("i", "jk", "<Esc>", opt)

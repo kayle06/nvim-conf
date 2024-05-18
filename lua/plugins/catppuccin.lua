@@ -1,3 +1,6 @@
+--[[
+配色方案
+--]]
 return {
 	"catppuccin/nvim",
 	name = "catppuccin",

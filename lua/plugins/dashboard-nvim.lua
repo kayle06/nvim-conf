@@ -1,3 +1,6 @@
+--[[
+nvim 启动台配置
+--]]
 return {
 	"nvimdev/dashboard-nvim",
 	event = "VimEnter",
